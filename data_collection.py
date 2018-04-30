@@ -6,6 +6,9 @@ import json
 import os
 from pattern.en import positive
 
+# define consumer_key, consumer_secret, access token and access_secret here.
+
+# use consumer_key, consumer_secret, access token and access_secret values to establish authentication.
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
 
