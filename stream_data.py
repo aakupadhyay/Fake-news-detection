@@ -4,10 +4,7 @@ import datetime  # python datetime module
 import json  # python json module
 import os  # python os module, used for creating folders
 
-OAuth = tweepy.OAuthHandler('PeH7lROp4ihy4QyK87FZg', '1BdUkBd9cQK6JcJPll7CkDPbfWEiOyBqqL2KKwT3Og')
-OAuth.set_access_token('1683902912-j3558MXwXJ3uHIuZw8eRfolbEGrzN1zQO6UThc7',
-                       'e286LQQTtkPhzmsEMnq679m7seqH4ofTDqeArDEgtXw')
-
+# set OAuth access token here
 
 class StreamListener(tweepy.StreamListener):
     def on_data(self, raw_data):
