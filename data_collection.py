@@ -6,12 +6,6 @@ import json
 import os
 from pattern.en import positive
 
-
-consumer_key = 'PeH7lROp4ihy4QyK87FZg'
-consumer_secret = '1BdUkBd9cQK6JcJPll7CkDPbfWEiOyBqqL2KKwT3Og'
-access_token = '1683902912-j3558MXwXJ3uHIuZw8eRfolbEGrzN1zQO6UThc7'
-access_secret = 'e286LQQTtkPhzmsEMnq679m7seqH4ofTDqeArDEgtXw'
-
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
 
