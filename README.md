@@ -8,5 +8,5 @@ Facebook has been at the epicentre of much critique following media attention. T
 
 # Goal 
 
-Aim is to build a machine learning method that can distinguish the news from different sites as legitimate or not based on the popularity of the site and using sentiment analysis scores of the news tweets.
+Aims to build a machine learning method that can distinguish the news from different sites as legitimate or not based on the popularity of the site and using sentiment analysis scores of the news tweets on Twitter.
 
