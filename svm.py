@@ -39,11 +39,6 @@ for class_label, text in tweets:
     y.append(class_label)
     X.append(x)
 
-# print "X =",np.asarray(X)
-# print "y =", np.asarray(y,order='F')
-# print '\n'
-
-
 # 10 folder cross validation to estimate the best w and b
 svc = svm.SVC(kernel='linear')
 Cs = range(1, 20)
@@ -66,10 +61,6 @@ for text in tweets:
             x[vocab[term]] += 1
     X.append(x)
 y = clf.predict(X)
-
-# print "model accuracy =", clf.score(X,y)
-# print "Best parameters of SVM =", svc.get_params(deep=True)
-# print '\n'
 
 # print 100 example tweets and their class labels
 fn = open('predicted_fake.txt','w')
