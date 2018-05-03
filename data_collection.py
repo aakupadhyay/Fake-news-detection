@@ -21,8 +21,6 @@ A = 0
 B = 0
 C = 0
 
-"""api = twitter.api(consumer_key='PeH7lROp4ihy4QyK87FZg', consumer_secret='1BdUkBd9cQK6JcJPll7CkDPbfWEiOyBqqL2KKwT3Og', access_token_key='1683902912-j3558MXwXJ3uHIuZw8eRfolbEGrzN1zQO6UThc7', access_token_secret='e286LQQTtkPhzmsEMnq679m7seqH4ofTDqeArDEgtXw')"""
-
 
 def get_recent_tweets(user, total_n=50):
     data = {}
