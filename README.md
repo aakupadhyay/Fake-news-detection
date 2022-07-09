@@ -1,5 +1,5 @@
 # Fake-news-detection
-project developed in Python 2.7
+The project was developed in Python 2.7 programming language and used Support Vector Machine (SVM) model to detect Fake news.
 
 # Introduction 
 
@@ -8,5 +8,5 @@ Facebook has been at the epicentre of much critique following media attention. T
 
 # Goal 
 
-Aims to build a machine learning method that can distinguish the news from different sites as legitimate or not based on the popularity of the site and using sentiment analysis scores of the news tweets on Twitter.
+Aims to build a machine learning method that can distinguish the news from different sites as legitimate or not based on the popularity of the site and using sentiment analysis scores of the news tweets on Twitter. Detailed analysis of results is provided in [Report.pdf](https://github.com/aakupadhyay/Fake-news-detection/blob/master/Report.pdf) file.
 
